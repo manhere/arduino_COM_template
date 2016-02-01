@@ -5,7 +5,7 @@
 #include "cmd_parser.h"
 #include <stdlib.h>
 
-#define REVISION "teensy_template 1.0.0"
+#define REVISION "ardunio_template 1.0.0"
 
 void setup() 
 {
