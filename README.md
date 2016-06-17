@@ -10,7 +10,7 @@ Basic Arduino project with event-driven COM port command interface.
 
 ## Command interface
 
-Uses serialEvent() to build up user command. When the complete  command is issued by the user (upon a <CR>), the appropriate function is called.
+Uses serialEvent() to build up user command. When the complete  command is issued by the user (upon hitting the Enter key), the appropriate function is called.
 
 ### Files
 - cmds.cpp
