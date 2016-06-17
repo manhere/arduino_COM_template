@@ -1,16 +1,16 @@
 # Arduino COM Template
 
-Basic Arduino project with event-driven COM port command interface.
-- Command list is easily expandable; this is a starting point for projects
-- Event driven command interface allows processing (loop function) to continue while waiting for user commands.
+Basic Arduino project with event-driven COM port command interface. This is a starting point for projects that require a terminal UI.
+- Command list is easily expandable.
+- Event driven command interface allows processing to continue while waiting for user commands.
 
 ## Todo
 
-- Add functionality where typing "help <cmd>" provides specific help on command
+- Add functionality where typing "help <cmd>" provides specific help on command.
 
 ## Command interface
 
-Uses serialEvent() to build up user command. When the complete  command is issued by the user (upon hitting the Enter key), the appropriate function is called.
+Uses serialEvent() to build up user command from individual key strokes. When the complete command is issued by the user (upon hitting the Enter key), the appropriate function is called.
 
 ### Files
 - cmds.cpp
