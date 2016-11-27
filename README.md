@@ -6,7 +6,7 @@ Basic Arduino project with event-driven COM port command interface. This is a st
 
 ## Todo
 
-- Add functionality where typing "help <cmd>" provides specific help on command.
+- Add functionality where typing `help <cmd>` provides specific help on command.
 
 ## Command interface
 
