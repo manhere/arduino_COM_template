@@ -24,9 +24,9 @@ To add new commands:
 
 ```c
 int cmd_<command name>(char *args[]))
-    {
-      /*do stuff*/
-    }
+{
+    /*do stuff*/
+}
 ```
 
 - Update the commandTable with command string and command function pointer
