@@ -22,10 +22,12 @@ To add new commands:
 
 - Add command functions to .ino file of form:
 
-    int cmd_<command name>(char *args[]))
+'''
+int cmd_<command name>(char *args[]))
     {
       /*do stuff*/
     }
+'''
 
 - Update the commandTable with command string and command function pointer
 
