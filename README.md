@@ -22,7 +22,7 @@ To add new commands:
 
 - Add command functions to .ino file of form:
 
-```
+```c
 int cmd_<command name>(char *args[]))
     {
       /*do stuff*/
